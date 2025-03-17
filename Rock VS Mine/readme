@@ -1,0 +1,25 @@
+# Sonar Rock vs Mine Prediction
+
+This project uses machine learning to predict whether an object detected by a sonar is a rock or a mine. It's based on a dataset of sonar signals, and uses a Logistic Regression model for classification.
+
+## Dataset
+
+The dataset used in this project is the "sonar data.csv" file. It contains 60 numerical features representing sonar signal characteristics, and a target variable indicating whether the object is a rock (R) or a mine (M).
+
+## Model
+
+A Logistic Regression model is trained on the dataset to classify the objects. The model is evaluated on a separate test set to assess its performance.
+
+## Usage
+
+1.  **Data Loading:** The dataset is loaded using Pandas.
+2.  **Data Preprocessing:** The dataset is split into training and testing sets.
+3.  **Model Training:** A Logistic Regression model is trained on the training data.
+4.  **Model Evaluation:** The model's accuracy is evaluated on the testing data.
+5.  **Prediction:** The model is used to predict the class of a new sonar signal.
+
+## Results
+
+The model achieves an accuracy of around 83% on the testing data.
+
+## Dependencies
